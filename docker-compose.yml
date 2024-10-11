@@ -1,0 +1,7 @@
+version: '2.4'
+services:
+  frontend:
+    image: rgalan94/frontend
+    container_name: frontend
+    ports:
+      - 5000:5000
