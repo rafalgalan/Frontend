@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Get Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/rafalgalan/Frontend'
+                checkout scm
             }
         }
         stage('Unit tests') {
